@@ -1,0 +1,93 @@
+@import url('http://fonts.googleapis.com/css?family=Roboto');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+/* "nav" is used to correctly display the menu's content */
+nav {
+    height: 100px; 
+    background: rgb(108, 2, 2);
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+    padding: 50px;
+    
+}
+
+/* "newlogo" is used for the NavFolio logo and its style (Bold, font size, and font type) */
+.newlogo {
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100;
+    color: #fff;
+}
+
+/* "nav a" is used for "Home, About, and Contact" and its readability on the webpage */
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 30px; 
+    
+}
+
+/* ----------------------------------------------- */ 
+
+/* This gives the contact page a more unique background */
+body {
+    background: linear-gradient(to right, #000, #e40d0d, #000);
+}
+
+/* "form" gives the form a black background and white text. Including optimal height, padding, and circular edges to give a sleek look*/
+form {
+    width: 400px;
+    background-color: black;
+    color: #fff;
+    height: 460px;
+    padding: 30px;
+    border-radius: 30px;
+    margin: 15vh auto 0 auto; /* This margin aligns the form to the center of the page */
+
+
+}
+/* This ensures the heading has spacing, optimal font size, and a font type (Which I have imported)*/
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    margin: 20px;
+    font-family: 'http://fonts.googleapis.com/css?family=Roboto';
+}
+
+/* This is used for the text at the bottom of the form, used to center the content*/
+h5 {
+    text-align: center;
+}
+
+/* "button" is used for the displayment of the button, making it larger, more oval and colored with a red background and white text*/
+button {
+    padding: 15px;
+    margin-top: 60px; /* Makes button lower on the page*/
+    width: 100%;
+    color: white; 
+    background: red;
+    border:none;  
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+/* This gives an optimal shape to the text boxes, making them bigger and more oval */
+input {
+    border-radius: 30px;
+    font-size: 14px;
+    padding: 12px;
+    width: 100%;
+    
+}
+
+

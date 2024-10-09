@@ -1,0 +1,88 @@
+@import url('http://fonts.googleapis.com/css?family=Roboto');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+
+}
+
+/* "nav" is used to correctly display the menu's content */
+nav {
+    height: 100px; 
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+    padding: 50px;
+    
+}
+
+/* "newlogo" is used for the NavFolio logo and its style (Bold, font size, and font type) */
+.newlogo {
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100;
+    color: #fff;
+}
+
+/* "nav a" is used for "Home, About, and Contact" and its readability on the webpage */
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 30px; 
+    
+}
+
+/* The body provides the background of the homepage. This was found on the D2L powerpoint to properly place the wallpaper with no errors*/
+
+    body {
+        min-height: 100vh; 
+        justify-content: center;
+        align-items: center;
+        background: url('https://wallpapers.com/images/hd/non-copyrighted-red-sunset-and-city-v37jucwagixbn5r2.jpg'); 
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        color: white;
+    }
+    
+ 
+/* This is used for the font size, font type, boldening, and center aligning of the heading title */
+
+.headingtitle {
+    text-align: center;
+    font-size:40px;
+    font-family: 'http://fonts.googleapis.com/css?family=Roboto';
+    font-weight:100px;
+}
+
+/* Used for the text below the header */
+
+.Para {
+    font-size: 15px;
+    margin: 30px;
+    font-family: 'Gill Sans';
+}
+
+/* "button" is used for the displayment of the button, making it larger, more oval and colored with a red background and white text*/
+
+button {
+    color: white; 
+    background: red; 
+    padding: 16px 64px;
+    margin: 0px;
+    border: none; 
+    border-radius: 100px;
+}
+
+/* This was to center the text and buttons*/
+
+.headingtitle {
+    display:flexbox;
+    margin: 20px;
+    padding: 100px;
+}
+
+

@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+
+}
+
+/* "nav" is used to correctly display the menu's content */
+nav {
+    height: 100px; 
+    background: rgb(108, 2, 2);
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+    padding: 50px;
+    
+}
+
+/* "newlogo" is used for the NavFolio logo and its style (Bold, font size, and font type) */
+.newlogo {
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100;
+}
+
+/* "nav a" is used for "Home, About, and Contact" and its readability on the webpage */
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 30px; 
+    
+    }
+
+
+/* "body" is used to make the background dark red and the text white */
+body {
+    background: rgb(108, 2, 2); 
+    color: white;
+}
+
+
+/* ABOUT PAGE CSS */
+
+
+/* "abt" is used to dispay the image on the left side and text on the right side*/
+.abt{
+    width: 1000px ;
+    height: auto;
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+
+}
+/* "img" is used to dispay the image smaller to align with the text */
+img{
+    height: auto; 
+    width: 500px; 
+}
+
+/* The next three "para" are used to make each paragraph have equal size and font type*/
+.para p1{
+
+    font-size: 14px;
+    font-family: Arial;
+}
+.para p2{
+    font-size: 14px;
+    font-family: Arial;
+
+}
+.para p3{
+    font-size: 14px;
+    font-family: Arial;
+}
+
+/* "cont" is also used for the displayment of the image on the left and text on the right*/
+.cont {
+    display:contents;
+}
+
+/* This ensures the heading has spacing, optimal font size, and a font type (Which I have imported)*/
+.para h1{
+    margin-bottom: 20px;
+    font-size: 60px;
+    font-family: 'http://fonts.googleapis.com/css?family=Roboto';
+}
+
+/* "button" is used for the displayment of the button, making it larger, more oval and colored with a red background and white text*/
+button {
+    color: white; 
+    background: red ; 
+    padding: 16px 64px;
+    margin: 0px;
+    border: none; 
+    border-radius: 100px;
+}
+
