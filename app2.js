@@ -17,7 +17,7 @@ app.post('/submit-form', (req, res) => {
 
     res.send(`Thank you, ${FLname}. I will message you shortly at ${email}.`);
     }); 
-    //Sends a personal message and shows that request has been recieved
+    //Sends a personal message and shows that request has been received
 
 app.listen(port, () => {
     console.log(`Server running on https://cyrusthegreat03.github.io/Project-Milestone-Two/${port}`);
