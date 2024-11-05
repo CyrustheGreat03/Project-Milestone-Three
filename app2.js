@@ -24,5 +24,5 @@ app.post('/submit-form', (req, res) => {
 // Start the server
 
 app.listen(port, () => {
-    console.log(`Server running on https://cyrusthegreat03.github.io/Project-Milestone-1/${port}`);
+    console.log(`Server running on https://cyrusthegreat03.github.io/Project-Milestone-Two/${port}`);
 });
