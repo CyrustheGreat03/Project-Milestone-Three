@@ -20,6 +20,6 @@ app.post('/submit-form', (req, res) => {
     //Sends a personal message and shows that request has been received
 
 app.listen(port, () => {
-    console.log(`Server running on https://cyrusthegreat03.github.io/Project-Milestone-Two/${port}`);
+    console.log(`Server running on https://cyrusthegreat03.github.io/Project-Milestone-Three/${port}`);
 }); 
 //Indicates which website the server should run on, using port 3000
