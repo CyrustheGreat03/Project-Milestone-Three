@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+
+}
+
+/* "nav" is used to correctly display the menu's content */
+nav {
+    height: 100px; 
+    background: white;
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+    padding: 50px;
+    
+}
+
+/* "newlogo" is used for the NavFolio logo and its style (Bold, font size, and font type) */
+.newlogo {
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100;
+}
+
+/* "nav a" is used for "Home, About, and Contact" and its readability on the webpage */
+
+nav a {
+    color: #000;
+    text-decoration: none;
+    padding: 30px; 
+    
+    }
+
+
+/* "body" is used to make the background dark red and the text white */
+body {
+    background: white; 
+    color: black;
+}
+
+img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 50px;
+    width: auto;
+}
